@@ -15,6 +15,10 @@ padding: 0px;
    padding: 0px;  
    font-family: Arial, Helvetica, sans-serif;
 }
+body
+{
+    background: #6bd7ff; 
+}
 .Header1
 {
     background: #0064ff;
@@ -48,6 +52,12 @@ nav{
     color: #ffff00;
     
 }
+#CurrentPage
+{
+    background: #ffff00;
+    color: #1175ff;
+}
+
 .LiNavBtn:hover
 {
     background: #ffff00;
@@ -61,4 +71,14 @@ nav{
 {
     padding-top: 50%;
 } */
+#Contactform
+{
+    width: 60%;
+    margin-left: calc(20% - 2px);
+    margin-top: calc(5% - 2px);
+    border: 2px solid black;
+    align-content: center;
+    
+    background-color: white;
+}
 
