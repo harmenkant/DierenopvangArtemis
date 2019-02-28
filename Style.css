@@ -77,7 +77,20 @@ nav{
     margin-left: calc(20% - 2px);
     margin-top: calc(5% - 2px);
     border: 2px solid black;
-    align-content: center;
+    text-align: center;
     background-color: white;
 }
-
+#contacttable
+{
+    margin: auto; 
+    text-align: left;
+    width: 80%
+}
+.inpContact
+{
+    width: 100%;
+}
+.trContact
+{
+    height: 40px;
+}
