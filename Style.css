@@ -94,3 +94,12 @@ nav{
 {
     height: 40px;
 }
+.sectionCenter{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.sectionCenter img{
+    margin-left: 2%;
+    padding: 5px;
+}
