@@ -12,7 +12,7 @@ Bestandsnaam:   XXXXXXX.html
         <meta name="Keywords" content="">
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="Style.css">
-        <script src="scripts/script.js"></script>
+        <script src="script.js"></script>
         <title>
                 Dierenopvang Artemis - contact
         </title>
@@ -24,17 +24,17 @@ Bestandsnaam:   XXXXXXX.html
         Dieren Opvang Artemis
     </h1>
     <nav>
-        <ul id="Nav">
-            <li class="LiNavBtn">
-                <p class="LiText">Info</p> 
-            </li>
-            <li class="LiNavBtn">
-                <p class="LiText">Nieuws</p> 
-            </li>
-            <li class="LiNavBtn" id="CurrentPage" id="ContactBtn">
-                <p class="LiText">Contact</p> 
-            </li>
-        </ul>
+            <ul id="Nav">
+                    <li class="LiNavBtn" onclick="InfoPage()">
+                        <p class="LiText">Info</p> 
+                    </li>
+                    <li class="LiNavBtn" onclick="NewsPage()" >
+                        <p class="LiText">Nieuws</p> 
+                    </li>
+                    <li class="LiNavBtn" id="CurrentPage">
+                        <p class="LiText">Contact</p> 
+                    </li>
+                </ul>
     </nav>
 </header>
 <section id="Contactform">
@@ -92,7 +92,7 @@ Bestandsnaam:   XXXXXXX.html
         </tr>
     </table>
 </section>
-<section id="Donate">
+<section id="Donate" onclick="DonatePage()">
 <p id="DonateText">
 Donate
 </p>
